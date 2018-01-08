@@ -59,6 +59,8 @@ namespace DutchTreat
             //In Module 9 Class 3 (Storing Identities in the Database), when dropping the database,
             //comment out below first, then run dotnet ef database drop in the 
             //command prompt for VS2017, then uncomment it. 
+
+            //OR implement: https://github.com/shawnwildermuth/WilderBlog/blob/master/src/WilderBlog.Data/WilderContextFactory.cs 
             services.AddAutoMapper();
 
             //IMailService is the interface, and the NullMailService is the implementation
