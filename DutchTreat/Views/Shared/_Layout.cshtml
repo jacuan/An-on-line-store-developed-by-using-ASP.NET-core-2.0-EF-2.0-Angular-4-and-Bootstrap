@@ -11,7 +11,10 @@
         <header class="container">
             <div class="navbar-header">
                 @* I can go to fontawesome.io > icon > search to find icons I want *@
-                <div class="navbar-brand"><i class="fa fa-paint-brush fa-spin"></i>Dutch Treat</div>
+                <div class="navbar-brand">
+                    <i class="fa fa-paint-brush fa-spin"></i>
+                    <a asp-controller="App" asp-action="Shop">Dutch Treat</a>
+                </div>
                 <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">&#9776;</button>
             </div>
             <div id="menu" class="collapse navbar-collapse">
@@ -28,8 +31,6 @@
                     {
                     <li><a asp-controller="Account" asp-action="Login">Login</a></li>
                     }
-
-
                 </ul>
             </div>
         </header>
