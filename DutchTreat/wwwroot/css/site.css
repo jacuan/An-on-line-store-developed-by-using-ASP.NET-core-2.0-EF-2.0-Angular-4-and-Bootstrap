@@ -1,4 +1,11 @@
-﻿
+﻿.navbar-inverse .navbar-brand a:hover {
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-brand a {
+    color: inherit;
+    font:x-large;
+}
 
 
 /*body{

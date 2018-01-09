@@ -25,7 +25,7 @@ namespace DutchTreat.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Shop", "App");
         }
 
         [HttpGet("contact")]
